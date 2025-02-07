@@ -51,9 +51,9 @@
                         <?php while ($row = mysqli_fetch_assoc($protagonists)) :  ?>
 
                         <tr>
-                        <td><?php echo $row['title']; ?></td>
-                        <td><?php echo $row['char_name']; ?></td>
-                        <td><?php echo $row['actor']; ?></td>
+                        <td><?php echo stripslashes($row['title']); ?></td>
+                        <td><?php echo stripslashes($row['char_name']); ?></td>
+                        <td><?php echo stripslashes($row['actor']); ?></td>
                         <td><?php echo $row['movie_or_tv']; ?></td>
                         <td><?php echo $row['genre']; ?></td>
                         </tr><!-- end of HTML table row -->
