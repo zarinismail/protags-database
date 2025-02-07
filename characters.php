@@ -31,7 +31,7 @@
                     <a class="btn btn-light btn-outline-dark me-2 mb-2" href="index.html" role="button">Return home</a>
                 </div> <!-- End of col-lg-6 -->
 
-                <div class="col-lg-9 mt-3 mx-auto table-responsive">
+                <div class="col-lg-9 mt-3 mb-5 mx-auto table-responsive">
                     <table class="table table-dark table-striped-columns">
                         <tr>
                             <th class="table-light">Title</th>
